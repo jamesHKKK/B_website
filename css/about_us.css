@@ -1,0 +1,1165 @@
+@media screen and (max-width:767px) {
+
+ 
+
+  /*整体解决方案 */
+  .solution {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    background: url(../image/401071237.png) no-repeat;
+    background-size: cover;
+  }
+
+  .solution_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 84.5%;
+    height: 295px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .solution_title {
+    width: 100%;
+    height: 52px;
+    padding-top: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .solution_left {
+    float: left;
+    width: 50%;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solution_right {
+    float: right;
+    width: 50%;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solution_bottom {
+    width: 100%;
+    height: 60px;
+    float: left;
+  }
+
+  .solution_ul li {
+    margin: 6px 0;
+    letter-spacing: 1px;
+  }
+
+  .solution_l {
+    font-size: 12px;
+  }
+
+  .solution_s {
+    font-size: 8px;
+    color: #999999;
+  }
+
+  .solution_bottom_left {
+    width: 48%;
+    float: left;
+    height: 26px;
+    margin-right: 4%;
+    padding-left: 5px;
+  }
+
+  .solution_bottom_left img {
+    width: 17px;
+    height: 20px;
+  }
+
+  .solution_bottom_left input {
+    width: 75%;
+    height: 26px !important;
+    font-size: 10px;
+  }
+
+  .solution_bottom_center {
+    width: 48%;
+    float: left;
+    height: 26px;
+  }
+
+  .solution_bottom_center img {
+    width: 14px;
+    height: 21px;
+  }
+
+  .solution_bottom_center input {
+    width: 75%;
+    height: 26px !important;
+    font-size: 10px;
+  }
+
+
+  .solution_buttom_right {
+    float: left;
+    width: 88px;
+    height: 28px;
+    background: #238ef8;
+    border-radius: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin: 25px 0 0 10px;
+  }
+
+  .solution_bottom input {
+    margin-left: 15px;
+    margin-top: 2px;
+    border: 1px solid rgb(153, 153, 153);
+  }
+
+  input::-webkit-input-placeholder {
+    color: rgb(153, 153, 153);
+  }
+
+  
+  /* about */
+  .about {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .about_us {
+    width: 100%;
+    height: 190px;
+    background: url(../image/501004811-banner.png);
+    background-size: cover;
+    position: relative;
+  }
+
+  .about_jc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    text-align: center;
+  }
+
+  .about_us_p {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .about_k12 {
+    font-size: 12px;
+    color: #ffffff;
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+
+  }
+
+  .try_us {
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  .try_us a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+  }
+  /* content */
+  .about_content {
+    width: 100%;
+    height: auto;
+    background: #f7f9fb;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    padding-top: 40px;
+  }
+
+  .decript_left {
+    width: 10%;
+    float: left;
+  }
+
+  .active {
+    color: #238ef8;
+  }
+
+  .decript_left li {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .dec_p {
+    width: 90%;
+    float: left;
+    padding-left: 35px;
+    display: none;
+  }
+
+  .disc_title {
+
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .disc_line {
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: #258ffc;
+    vertical-align: middle;
+  }
+
+  .disc_title span {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .disc_p_content {
+    height: 390px;
+  }
+
+  .disc_p_content p {
+    text-indent: 20px;
+    line-height: 17px;
+    font-size: 10px;
+    color: #222222;
+    margin: 8px 0;
+  }
+  .disc_bottom{
+    width: 100%;
+    height: 360px;
+  }
+  .author_system{
+    width: 100%;
+    height: 180px;
+    padding: 25px 0;
+    display: flex;
+   align-items: center;
+  }
+  .author_left{
+    float: left;
+    position: relative;
+    width: 66px;
+    height: 45px;
+    background:url(../image/专利.png);
+    background-size: cover;
+  }
+  .author_cicle{
+    position: absolute;
+    top: 32px;
+    left: 33px;
+    width: 12px;
+    height: 12px;
+    background: url(../image/cicles.png);
+    background-size: cover;
+  }
+  .author_right{
+    width: 250px;
+    height: 96px;
+    float: left;
+    padding-left: 15px;
+  }
+  .change_small{
+    font-size: 18px;
+  }
+  .author_right p:first-child{
+   font-size: 12px;
+   margin-bottom: 2px;
+  }
+  .author_right p:last-child{
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .author_add{
+    box-sizing: content-box;
+    width: 225px;
+    height: 140px;
+    margin-right: 20px;
+  }
+  .author-add-left{
+    background: url(../image/产品_基础服务.png);
+    background-size: cover;
+  }
+  .author_cicle_a{
+    width: 15px;
+    height:15px;
+    background: url(../image/cicles.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -5px;
+    left: 32px;
+  }
+  .author_cicle_add{
+    top: 47px;
+    left: 18px;
+  }
+  /* 公司资质 */
+  .dec_display{
+    width: 100%;
+    height: 342px;
+    margin-top: 30px;
+  }
+  .dec_display_big{
+    width:39%;
+    height: 100px;
+    float: left;
+  }
+  .dec_display_middle{
+    width: 20%;
+    height: 100px;
+    margin: 0 1%;
+    float: left;
+  }
+  .dec_display_up{
+    width: 100%;
+    height:5px ;
+    background: url(../image/22.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_down{
+    width: 100%;
+    height:95px ;
+    background: url(../image/21.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_middle  .dec_display_down{
+    background: url(../image/21-2a.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_middle  .dec_display_up{
+    background: url(../image/22-2.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_small{
+    float: left;
+    width: 15%;
+    height: 80px;
+    margin-top: 20px;
+    margin-right: 2%;
+  }
+  .dec_small .dec_display_down{
+    height: 75px;
+  }
+ .dec_wrap .dec_small:nth-child(6n+6){
+    margin-right:0px
+  }
+/* 联系我们 */
+.company{
+  width: 100%;
+  height: 200px;
+}
+.company-name{
+font-size: 16px;
+color: #238ef8;
+letter-spacing: 1.4px;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.company p{
+font-size: 11px;
+margin: 5px 0;
+}
+.address{
+width: 100%;
+height: 200px;
+margin-bottom: 20px;
+}
+#address{
+  height:200px ;
+}
+
+
+}
+
+@media screen and (min-width:767px) and (max-width:1200px) {
+
+  /*整体解决方案 */
+  .solution {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../image/401071237.png);
+    background-size: cover;
+  }
+
+  .solution_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 84.5%;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .solution_title {
+    width: 100%;
+    height: 130px;
+    padding-top: 48px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .solution_left {
+    float: left;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solution_right {
+    float: right;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solution_bottom {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .solution_ul li {
+    margin: 24px 0;
+    letter-spacing: 2px;
+  }
+
+  .solution_l {
+    font-size: 22px;
+  }
+
+  .solution_s {
+    color: #999999;
+  }
+
+  .solution_bottom_left {
+    width: 40%;
+    float: left;
+    height: 45px;
+  }
+
+  .solution_bottom_center {
+    width: 40%;
+    float: left;
+    height: 45px;
+  }
+
+  .solution_buttom_right {
+    float: left;
+    width: 15.4%;
+    height: 45px;
+    background: #238ef8;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-left: 4.6%;
+  }
+
+  .solution_bottom input {
+    margin-left: 15px;
+    margin-top: 2px;
+    border: 1px solid rgb(153, 153, 153);
+  }
+
+  input::-webkit-input-placeholder {
+    color: rgb(153, 153, 153);
+  }
+
+  
+  /* about */
+  .about {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .about_us {
+    width: 100%;
+    height: 320px;
+    background: url(../image/501004811-banner.png);
+    background-size: cover;
+    position: relative;
+  }
+
+  .about_jc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    text-align: center;
+  }
+
+  .about_us_p {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .about_k12 {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+
+  }
+
+  .try_us {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  .try_us a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+  }
+
+  /* content */
+  .about_content {
+    width: 100%;
+    height: auto;
+    background: #f7f9fb;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    padding-top: 40px;
+  }
+
+  .decript_left {
+    width: 10%;
+    float: left;
+  }
+
+  .active {
+    color: #238ef8;
+  }
+
+  .decript_left li {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .dec_p {
+    width: 90%;
+    float: left;
+    padding-left: 35px;
+    display: none;
+  }
+
+  .disc_title {
+
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .disc_line {
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: #258ffc;
+    vertical-align: middle;
+  }
+
+  .disc_title span {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .disc_p_content {
+    height: 455px;
+  }
+
+  .disc_p_content p {
+    text-indent: 28px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #222222;
+    margin: 8px 0;
+  }
+  .disc_bottom{
+    width: 100%;
+    height: 440px;
+  }
+  .author_system{
+    width: 100%;
+    height: 180px;
+    padding: 25px 0;
+    display: flex;
+   align-items: center;
+  }
+  .author_left{
+    float: left;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background:url(../image/专利.png);
+    background-size: cover;
+  }
+  .author_cicle{
+    position: absolute;
+    top: 80px;
+    left: 88px;
+    width: 25px;
+    height: 25px;
+    background: url(../image/cicles.png);
+    background-size: cover;
+  }
+  .author_right{
+    width: 250px;
+    height: 120px;
+    float: left;
+    padding-left: 25px;
+  }
+  .change_small{
+    font-size: 25px;
+  }
+  .author_right p:first-child{
+   font-size: 16px;
+   margin-bottom: 2px;
+  }
+  .author_right p:last-child{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .author_add{
+    padding-left: 145px;
+    box-sizing: content-box;
+    width: 225px;
+    height: 140px;
+    margin-right: 20px;
+  }
+  .author-add-left{
+    background: url(../image/产品_基础服务.png);
+    background-size: cover;
+  }
+  .author_cicle_a{
+    width: 20px;
+    height:20px;
+    background: url(../image/cicles.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -16px;
+    left: 20px;
+  }
+  .author_cicle_add{
+    top: 92px;
+    left: 75px;
+  }
+  /* 公司资质 */
+  .dec_display{
+    width: 100%;
+    height: 598px;
+    margin-top: 30px;
+  }
+  .dec_display_big{
+    width:39%;
+    height: 180px;
+    float: left;
+  }
+  .dec_display_middle{
+    width: 20%;
+    height: 180px;
+    margin: 0 1%;
+    float: left;
+  }
+  .dec_display_up{
+    width: 100%;
+    height:5px ;
+    background: url(../image/22.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_down{
+    width: 100%;
+    height:175px ;
+    background: url(../image/21.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_middle  .dec_display_down{
+    background: url(../image/21-2a.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_middle  .dec_display_up{
+    background: url(../image/22-2.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_small{
+    float: left;
+    width: 15%;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 2%;
+  }
+  .dec_small .dec_display_down{
+    height: 145px;
+  }
+ .dec_wrap .dec_small:nth-child(6n+6){
+    margin-right:0px
+  }
+
+/* 联系我们 */
+.company{
+  width: 100%;
+  height: 200px;
+}
+.company-name{
+font-size: 16px;
+color: #238ef8;
+letter-spacing: 1.4px;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.company p{
+font-size: 12px;
+margin: 5px 0;
+}
+.address{
+width: 100%;
+height: 300px;
+margin-bottom: 20px;
+}
+
+#address{
+  height: 300px;
+}
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+  /*整体解决方案 */
+  .solution {
+    width: 100%;
+    height: 790px;
+    position: relative;
+    background: url(../image/401071237.png);
+    background-size: cover;
+  }
+
+  .solution_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 62.5%;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 125px;
+  }
+
+  .solution_title {
+    width: 100%;
+    height: 150px;
+    padding-top: 75px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .solution_left {
+    float: left;
+    width: 50%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solution_right {
+    float: right;
+    width: 50%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .solution_bottom {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+  }
+
+  .solution_ul li {
+    margin: 50px 0;
+    letter-spacing: 2px;
+  }
+
+  .solution_l {
+    font-size: 25px;
+  }
+
+  .solution_s {
+    color: #999999;
+  }
+
+  .solution_bottom_left {
+    width: 40%;
+    float: left;
+    height: 45px;
+  }
+
+  .solution_bottom_center {
+    width: 40%;
+    float: left;
+    height: 45px;
+  }
+
+  .solution_buttom_right {
+    float: left;
+    width: 15.4%;
+    height: 45px;
+    background: #238ef8;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-left: 4.6%;
+  }
+
+  .solution_bottom input {
+    margin-left: 15px;
+    margin-top: 2px;
+    border: 1px solid rgb(153, 153, 153);
+  }
+
+  input::-webkit-input-placeholder {
+    color: rgb(153, 153, 153);
+  }
+
+  /* about */
+  .about {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .about_us {
+    width: 100%;
+    height: 320px;
+    background: url(../image/501004811-banner.png);
+    background-size: cover;
+    position: relative;
+  }
+
+  .about_jc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    text-align: center;
+  }
+
+  .about_us_p {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .about_k12 {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 20px 0;
+    letter-spacing: 1.5px;
+
+  }
+
+  .try_us {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .try_us a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+  }
+  /* content */
+  .about_content {
+    width: 100%;
+    height: auto;
+    background: #f7f9fb;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: hidden;
+    padding-top: 40px;
+  }
+
+  .decript_left {
+    width: 10%;
+    float: left;
+  }
+
+  .active a{
+    color: #238ef8;
+  }
+
+  .decript_left li {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+  }
+
+  .dec_p {
+    width: 80%;
+    float: left;
+    padding-left: 35px;
+    display: none;
+  }
+
+  .disc_title {
+
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .disc_line {
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background: #258ffc;
+    vertical-align: middle;
+  }
+
+  .disc_title span {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .disc_p_content {
+    height: 400px;
+  }
+
+  .disc_p_content p {
+    text-indent: 28px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #222222;
+    margin: 8px 0;
+  }
+  .disc_bottom{
+    width: 100%;
+    height: 540px;
+  }
+  .author_system{
+    width: 100%;
+    height: 220px;
+    padding: 25px 0;
+    display: flex;
+   align-items: center;
+   padding-bottom: 0;
+  }
+  .author_left{
+    float: left;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background:url(../image/专利.png);
+    background-size: cover;
+  }
+  .author_cicle{
+    position: absolute;
+    top: 80px;
+    left: 88px;
+    width: 25px;
+    height: 25px;
+    background: url(../image/cicles.png);
+    background-size: cover;
+  }
+  .author_right{
+    width: 250px;
+    height: 120px;
+    float: left;
+    padding-left: 50px;
+    box-sizing: content-box;
+  }
+  .change_small{
+    font-size: 25px;
+  }
+  .author_right p:first-child{
+   font-size: 16px;
+   margin-bottom: 2px;
+  }
+  .author_right p:last-child{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .author_add{
+    padding-left: 170px;
+    box-sizing: content-box;
+    width: 225px;
+    height: 140px;
+    margin-right: 20px;
+  }
+  .author-add-left{
+    background: url(../image/产品_基础服务.png);
+    background-size: cover;
+    margin-left: 20px;
+  }
+  .author_cicle_a{
+    width: 20px;
+    height:20px;
+    background: url(../image/cicles.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -16px;
+    left: 20px;
+  }
+  .author_cicle_add{
+    top: 92px;
+    left: 75px;
+  }
+
+/* 公司资质 */
+  .dec_display{
+    width: 100%;
+    height: 685px;
+    margin-top: 30px;
+  }
+  .dec_display_big{
+    width:39%;
+    height: 200px;
+    float: left;
+  }
+  .dec_display_middle{
+    width: 20%;
+    height: 200px;
+    margin: 0 1%;
+    float: left;
+  }
+  .dec_display_up{
+    width: 100%;
+    height:5px ;
+    background: url(../image/22.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_down{
+    width: 100%;
+    height:195px ;
+    background: url(../image/21.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_middle  .dec_display_down{
+    background: url(../image/21-2a.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_display_middle  .dec_display_up{
+    background: url(../image/22-2.png) no-repeat;
+    background-size: cover;
+  }
+  .dec_small{
+    float: left;
+    width: 15%;
+    height: 180px;
+    margin-top: 20px;
+    margin-right: 2%;
+  }
+  .dec_small .dec_display_down{
+    height: 175px;
+  }
+ .dec_wrap .dec_small:nth-child(6n+6){
+    margin-right:0px
+  }
+/* 联系我们 */
+  .company{
+    width: 100%;
+    height: 250px;
+  }
+.company-name{
+  font-size: 16px;
+  color: #238ef8;
+  letter-spacing: 1.4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.company p{
+  font-size: 12px;
+  margin: 5px 0;
+}
+.address{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+#address{
+  height: 500px;
+}
+
+}

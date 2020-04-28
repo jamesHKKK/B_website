@@ -1,0 +1,1434 @@
+@media screen and (max-width:767px) {
+    .servers {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .servers_news_title {
+        width: 100%;
+        height: 190px;
+        background: url(../image/501004811-banner.png);
+        background-size: cover;
+        position: relative;
+    }
+
+    .servers_jc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 50%;
+        text-align: center;
+    }
+
+    .servers_us_p {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+
+    .servers_k12 {
+        font-size: 12px;
+        color: #ffffff;
+        margin: 10px 0;
+        letter-spacing: 1.5px;
+
+    }
+
+   /* 内容 */
+    .serves_content {
+        width: 100%;
+        height: 1546px;
+        background: #f5f5f5;
+        padding: 0 1%;
+    }
+
+    .serves_wrap {
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+    }
+
+    .serves_left {
+        float: left;
+        width: 20%;
+        height: 100%;
+        box-shadow: 0px 3px 7px 0 rgba(7, 0, 2, 0.35);
+    }
+
+    .serves_left ul {
+        margin-top: 25px;
+    }
+
+    .serves_left ul li {
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #666666;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .active {
+        background: #258ffc;
+        color: #ffffff !important;
+    }
+    .active a{
+        color: #ffffff !important;
+    }
+
+    .serves_right {
+        float: left;
+        width: 80%;
+        height: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+     /* 下载中心 */
+     .download_wrap{
+        width: 100%;
+        height: 300px;
+        
+    }
+    .download_wrap ul{
+        padding-top: 30px;
+    }
+    .download_wrap ul li{
+        float: left;
+        width: 32%;
+        height: 106px;
+        margin-right: 2%;
+        margin-top: 8px;
+        position: relative;
+        cursor: pointer;
+    }
+    .download_wrap ul li:nth-child(3n+3){
+        margin-right: 0;
+    }
+    .down_img_wrap{
+        padding: 2px;
+        background: #eeeeee;
+       
+    }
+    .down_img{
+        width: 100%;
+        height: 52px;
+        text-align:center;
+        line-height: 52px;
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+    }
+    .down_img img{
+        width: 80%;
+    }
+    .download_wrap ul li:hover .down_img{
+         background: #2383f7;
+    }
+    .down_text{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 10px;
+        color: #414141;
+    }
+   
+
+    /* 联系我们 */
+
+    .disc_title {
+        font-size: 12px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .disc_line {
+        display: inline-block;
+        width: 4px;
+        height: 16px;
+        background: #258ffc;
+        vertical-align: middle;
+    }
+
+    .disc_title span {
+        font-size: 16px;
+        vertical-align: middle;
+    }
+
+    .company {
+        width: 100%;
+        height: 200px;
+        margin-top: 4%;
+    }
+
+    .company-name {
+        font-size: 16px;
+        color: #238ef8;
+        letter-spacing: 1.4px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .company p {
+        font-size: 11px;
+        margin: 5px 0;
+    }
+    /* 视频 */
+     .serves_moves{
+        padding-top:4% ;
+     }
+     .serves_moves_content{
+         width: 100%;
+         height: 180px;
+        
+         margin-top: 3%;
+         float: left;
+         background: #eeeeee;
+         position: relative;
+     }
+     .serves_img{
+        padding: 5px 5px 0 5px;
+         width: 100%;
+         height: 140px;
+         box-sizing: border-box;
+     }
+     .server_display{
+         display: none;
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 140px;
+         background: url(../image/34-3.png) no-repeat;
+         background-size: cover;
+     }
+     .server_text{
+         width: 100%;
+         height: 48px;
+         position: absolute;
+         left: 0;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         margin: auto;
+         color: #ffffff;
+         font-size: 14px;
+         text-align: center;
+     }
+     .server_bot{
+         height: 40px;
+         line-height: 40px;
+         text-align: center;
+         color: #414141;
+     }
+     .serves_moves_content:hover .server_display{
+         display: block;
+     }
+
+     
+    /* 咨询中心 */
+    .advisory{
+        width: 100%;
+        height: 560px;
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+    .advisory_top{
+        width: 100%;
+        height: 50px;
+        background: url(../image/advisory.png) no-repeat;
+        background-size: cover;
+        color: #ffffff;
+    }
+    .advisory_p{
+        float: left;
+    }
+    .advisory_p p:nth-child(1){
+        font-size: 12px;
+        margin: 11px 0 3px 10px;
+       
+    }
+    .advisory_p p:nth-child(2){
+        font-size: 10px;
+        margin: 8px 0 3px 10px;
+    }
+    .end{
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+        float: right;
+        font-size: 10px;
+        margin-top: 15px;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 8px;
+    }
+    .advisory_content{
+        width: 100%;
+        height: 370px;
+    }
+    .advisory_content_left{
+        width: 100%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #dadbdb;
+        border-top: 0px;
+    }
+    .advisory_content_right{
+       display: none !important;
+        width: 30%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #dadbdb;
+        border-top: 0px;
+        border-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advisory_content_right p{
+        padding-top: 15px;
+        font-size: 10px;
+        color: #333333;
+        text-align: center;
+    }
+    .chat_wrap{
+        width: 100%;
+        height: 245px;
+        border-bottom: 1px solid #dadbdb;
+        box-sizing: border-box;
+    }
+    .remide{
+        width: 100%;
+        height: 25px;
+        background: #fff9db;
+        font-size: 9px;
+        color: #f2930b;
+        padding-top: 3px;
+    }
+    .remide img{
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    .remide span{
+        vertical-align: middle;
+    }
+    .cancel{  
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .ad_time{
+        width: 56%;
+        margin: 0 auto;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background: #abcccc;
+        color: #ffffff;
+        font-size: 9px;
+        margin-top: 10px;
+    }
+    .chat_pep{
+        color:#258ffc;
+    }
+    .chat_h{
+        margin-left: 5px;
+        color: #abcccc;
+    }
+    .chat_left{
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .message{
+       display: inline-block;
+       padding: 5px;
+       font-size: 10px;
+       background: #eef0f0;
+       border-radius: 8px;
+       position: relative;
+       margin-left: 5px;
+    }
+    .message::after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 5px solid transparent;
+        border-bottom: 8px solid #eef0f0;
+        top: -12px;
+        left: 10px;
+        
+    }
+    .icon_chat{
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #dadbdb;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .icon_smlle,.icon_text,.icon_phone,.icon_move,.icon_jia{
+        margin: 0 15px;
+    }
+    .send{
+        width: 100%;
+        height: 85px;
+        position: relative;
+    }
+    .send_button{
+        width: 60px;
+        height: 25px;
+        background: #258ffc;
+        text-align: center;
+        line-height: 25px;
+        font-size: 12px;
+        color: #ffffff;
+        position: absolute;
+        right:10px;
+        bottom: 10px;
+        border-radius: 2px;
+    }
+    .ad_img{
+        width: 80%;
+        height: 30px;
+    }
+
+     /* 服务政策 */
+     .policy{
+        width: 96%;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .policy .ser_li{
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dadbdb;
+    }
+    .ser_li p:first-child{
+        font-size: 14px;
+        color: #258ffc;
+    }
+    .ser_li p{
+        margin: 5px 0;
+        font-size: 11px;
+    }
+    .left_depage{
+        width: 100%;
+         height: 80px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #999999;
+       }
+       .left_depage button{
+        margin: 0 3px;
+        background: #f2f2f2;
+        outline: none;
+        border: 0;
+       }
+       .btn_num{
+         width: 20px;
+       }
+       .last-page,.next-page{
+         width: 68px;
+       }
+        .left_depage .active{
+         border-radius: 2px;
+         box-shadow: 0px 2px 0 0 #0679eb;
+         background-color: #238ef8;
+         color:#ffffff ;
+       }
+        /* 常见问题 */
+        .ser_li .ser_first{
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .ser_secend{
+            position: relative;
+         }
+         .question{
+             display: inline-block;
+             width: 16px;
+             height: 16px;
+             position: absolute;
+             top: 12px;
+             left: -25px;
+         }
+         .answer{
+          display: inline-block;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 0px;
+            left: -25px;
+         }
+ 
+
+}
+
+@media screen and (min-width:767px) and (max-width:1200px) {
+    .serves_left  a{
+        display: block;
+        width: 100%;
+        height: 100%;
+          color: #666666;
+          text-decoration: none !important;
+      }
+    .servers {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .servers_news_title {
+        width: 100%;
+        height: 320px;
+        background: url(../image/501004811-banner.png);
+        background-size: cover;
+        position: relative;
+    }
+
+    .servers_jc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 50%;
+        text-align: center;
+    }
+
+    .servers_us_p {
+        font-size: 35px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+
+    .servers_k12 {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 20px 0;
+        letter-spacing: 1.5px;
+
+    }
+
+    .serves_content {
+        width: 100%;
+        height: 1060px;
+        background: #f5f5f5;
+        padding: 0 9.75%;
+    }
+
+    .serves_wrap {
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+    }
+
+    .serves_left {
+        float: left;
+        width: 17.5%;
+        height: 100%;
+        box-shadow: 0px 3px 7px 0 rgba(7, 0, 2, 0.35);
+    }
+
+    .serves_left ul {
+        margin-top: 25px;
+    }
+
+    .serves_left ul li {
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #666666;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .active {
+        background: #258ffc;
+        color: #ffffff !important;
+    }
+    .active a{
+        color: #ffffff !important;
+    }
+    .serves_right {
+        float: left;
+        width: 82.5%;
+        height: 100%;
+        padding-left: 10%;
+    }
+     /* 下载中心 */
+     .download_wrap{
+        width: 100%;
+        height: 300px;
+        margin-left: -4%;
+
+    }
+    .download_wrap ul{
+        padding-top: 30px;
+    }
+    .download_wrap ul li{
+        float: left;
+        width: 30%;
+        height: 140px;
+        margin-right: 2%;
+        margin-top: 8px;
+        position: relative;
+        cursor: pointer;
+    }
+  
+    .down_img_wrap{
+        padding: 2px;
+        background: #eeeeee;
+       
+    }
+    .down_img{
+        width: 100%;
+        height: 96px;
+        text-align:center;
+        line-height: 96px;
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+    }
+    .down_img img{
+        width: 80%;
+    }
+    .download_wrap ul li:hover .down_img{
+         background: #2383f7;
+    }
+    .down_text{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #414141;
+    }
+   
+
+    /* 联系我们 */
+    .company {
+        width: 100%;
+        height: 200px;
+        margin-top: 4%;
+    }
+    .disc_title {
+
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .disc_line {
+        display: inline-block;
+        width: 4px;
+        height: 16px;
+        background: #258ffc;
+        vertical-align: middle;
+    }
+
+    .disc_title span {
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    .company-name {
+        font-size: 16px;
+        color: #238ef8;
+        letter-spacing: 1.4px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .company p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+     /* 视频 */
+     .serves_moves{
+        padding-top:4% ;
+     }
+     .serves_moves_content a{
+        text-decoration: none !important;
+        display: block;
+        width: 100%;
+        height: 100%;
+     }
+     .serves_moves_content{
+         width: 45%;
+         height: 180px;
+         margin-right: 5%;
+         margin-top: 3%;
+         float: left;
+         background: #eeeeee;
+         position: relative;
+     }
+     .serves_img{
+        padding: 5px 5px 0 5px;
+         width: 100%;
+         height: 140px;
+         box-sizing: border-box;
+     }
+     .server_display{
+         display: none;
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 140px;
+         background: url(../image/34-3.png) no-repeat;
+         background-size: cover;
+     }
+     .server_text{
+         width: 100%;
+         height: 48px;
+         position: absolute;
+         left: 0;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         margin: auto;
+         color: #ffffff;
+         font-size: 14px;
+         text-align: center;
+     }
+     .server_bot{
+         height: 40px;
+         line-height: 40px;
+         text-align: center;
+         color: #414141;
+     }
+     .serves_moves_content:hover .server_display{
+         display: block;
+     }
+     
+       /* 咨询中心 */
+    .advisory{
+        width: 85%;
+        height: 560px;
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+    .advisory_top{
+        width: 100%;
+        height: 60px;
+        background: url(../image/advisory.png) no-repeat;
+        background-size: cover;
+        color: #ffffff;
+    }
+    .advisory_p{
+        float: left;
+    }
+    .advisory_p p:nth-child(1){
+        font-size: 12px;
+        margin: 11px 0 3px 10px;
+       
+    }
+    .advisory_p p:nth-child(2){
+        font-size: 10px;
+        margin: 8px 0 3px 10px;
+    }
+    .end{
+        width: 60px;
+        height: 30px;
+        line-height: 30px;
+        float: right;
+        font-size: 12px;
+        margin-top: 15px;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 8px;
+    }
+    .advisory_content{
+        width: 100%;
+        height: 475px;
+    }
+    .advisory_content_left{
+        width: 70%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #dadbdb;
+        border-top: 0px;
+    }
+    .advisory_content_right{
+        width: 30%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #dadbdb;
+        border-top: 0px;
+        border-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advisory_content_right p{
+        padding-top: 15px;
+        font-size: 10px;
+        color: #333333;
+        text-align: center;
+    }
+    .chat_wrap{
+        width: 100%;
+        height: 335px;
+        border-bottom: 1px solid #dadbdb;
+        box-sizing: border-box;
+    }
+    .remide{
+        width: 100%;
+        height: 25px;
+        background: #fff9db;
+        font-size: 12px;
+        color: #f2930b;
+        padding-top: 3px;
+    }
+    .remide img{
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    .remide span{
+        vertical-align: middle;
+    }
+    .cancel{  
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .ad_time{
+        width: 40%;
+        margin: 0 auto;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background: #abcccc;
+        color: #ffffff;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .chat_pep{
+        color:#258ffc;
+    }
+    .chat_h{
+        margin-left: 5px;
+        color: #abcccc;
+    }
+    .chat_left{
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .message{
+       display: inline-block;
+       padding: 5px;
+       font-size: 10px;
+       background: #eef0f0;
+       border-radius: 8px;
+       position: relative;
+       margin-left: 5px;
+    }
+    .message::after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 5px solid transparent;
+        border-bottom: 8px solid #eef0f0;
+        top: -12px;
+        left: 10px;
+        
+    }
+    .icon_chat{
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #dadbdb;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .icon_smlle,.icon_text,.icon_phone,.icon_move,.icon_jia{
+        margin: 0 15px;
+    }
+    .send{
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+    .send_button{
+        width: 60px;
+        height: 25px;
+        background: #258ffc;
+        text-align: center;
+        line-height: 25px;
+        font-size: 12px;
+        color: #ffffff;
+        position: absolute;
+        right:10px;
+        bottom: 10px;
+        border-radius: 2px;
+    }
+    .ad_img{
+        width: 80%;
+        height: 30px;
+    }
+    /* 服务政策 */
+    .policy{
+        width: 96%;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .policy .ser_li{
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dadbdb;
+    }
+    .ser_li p:first-child{
+        font-size: 14px;
+        color: #258ffc;
+    }
+    .ser_li p{
+        margin: 5px 0;
+        font-size: 11px;
+    }
+    .left_depage{
+        width: 96%;
+         height: 80px;
+         margin-left: -20px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #999999;
+       }
+       .left_depage button{
+        margin: 0 3px;
+        background: #f2f2f2;
+        outline: none;
+        border: 0;
+       }
+       .btn_num{
+         width: 20px;
+       }
+       .last-page,.next-page{
+         width: 68px;
+       }
+        .left_depage .active{
+         border-radius: 2px;
+         box-shadow: 0px 2px 0 0 #0679eb;
+         background-color: #238ef8;
+         color:#ffffff ;
+       }
+        /* 常见问题 */
+        .ser_li .ser_first{
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .ser_secend{
+            position: relative;
+         }
+         .question{
+             display: inline-block;
+             width: 20px;
+             height: 20px;
+             position: absolute;
+             top: 8px;
+             left: -30px;
+         }
+         .answer{
+          display: inline-block;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -3px;
+            left: -30px;
+         }
+
+}
+
+@media screen and (min-width:1200px) {
+  .serves_left  a{
+      display: block;
+      width: 100%;
+      height: 100%;
+        color: #666666;
+        text-decoration: none !important;
+    }
+    .servers {
+        width: 100%;
+        margin-top: 80px;
+    }
+    .servers_news_title {
+        width: 100%;
+        height: 320px;
+        background: url(../image/501004811-banner.png);
+        background-size: cover;
+        position: relative;
+    }
+    .servers_jc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 50%;
+        text-align: center;
+    }
+    .servers_us_p {
+        font-size: 35px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+    .servers_k12 {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 20px 0;
+        letter-spacing: 1.5px;
+    }
+    .serves_content {
+        width: 100%;
+        height: 1000px;
+        background: #f5f5f5;
+        padding: 0 18.75%;
+    }
+    .serves_wrap {
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+    }
+    .serves_left {
+        float: left;
+        width: 17.5%;
+        height: 100%;
+        box-shadow: 0px 3px 7px 0 rgba(7, 0, 2, 0.35);
+    }
+    .serves_left ul {
+        margin-top: 25px;
+    }
+    .serves_left ul li {
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #666666;
+        border-bottom: 1px solid #e7e7e7;
+        cursor: pointer;
+    }
+    
+    .active {
+        background: #258ffc;
+       
+    }
+    .active a{
+        color: #ffffff !important;
+    }
+    .serves_right {
+        float: left;
+        width: 82.5%;
+        height: 100%;
+        padding-left: 10%;
+    }
+    .serves_right_wrap{
+        /* display: none; */
+    }
+    /* 下载中心 */
+    .download_wrap{
+        width: 100%;
+        height: 300px;
+        margin-left: -4%;
+
+    }
+    .download_wrap ul{
+        padding-top: 15px;
+    }
+    .download_wrap ul li{
+        float: left;
+        width: 30%;
+        height: 160px;
+        margin-right: 2%;
+        margin-top: 30px;
+        position: relative;
+        cursor: pointer;
+    }
+  
+    .down_img_wrap{
+        padding: 2px;
+        background: #eeeeee;
+       
+    }
+    .down_img{
+        width: 100%;
+        height: 116px;
+        text-align:center;
+        line-height: 116px;
+       
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+    }
+    .download_wrap ul li:hover .down_img{
+         background: #2383f7;
+    }
+    .down_text{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 16px;
+        color: #414141;
+    }
+    /* 售后服务 */
+    .disc_title {
+        height: 20px;
+        line-height: 20px;
+    }
+    .disc_line {
+        display: inline-block;
+        width: 4px;
+        height: 16px;
+        background: #258ffc;
+        vertical-align: middle;
+    }
+    .disc_title span {
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    .company {
+        width: 100%;
+        height: 210px;
+        margin-top: 4%;
+    }
+    .company-name {
+        font-size: 16px;
+        color: #238ef8;
+        letter-spacing: 1.4px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .company p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    /* 培训视频 */
+    .serves_moves{
+       padding-top:4% ;
+    }
+    .serves_moves_content{
+        width: 35%;
+        height: 180px;
+        margin-right: 10%;
+        margin-top: 3%;
+        float: left;
+        background: #eeeeee;
+        position: relative;
+    }
+    .serves_moves_content a{
+        text-decoration: none !important;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .serves_img{
+        padding: 5px 5px 0 5px;
+        width: 100%;
+        height: 140px;
+        box-sizing: border-box;
+    }
+    .server_display{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 140px;
+        background: url(../image/34-3.png) no-repeat;
+        background-size: cover;
+    }
+    .server_text{
+        width: 100%;
+        height: 48px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+    }
+    .server_bot{
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #414141;
+    }
+    .serves_moves_content:hover .server_display{
+        display: block;
+    }
+
+    /* 咨询中心 */
+    .advisory{
+        width: 85%;
+        height: 560px;
+        margin-left: 0%;
+        margin-top: 12%;
+    }
+    .advisory_top{
+        width: 100%;
+        height: 60px;
+        background: url(../image/advisory.png) no-repeat;
+        background-size: cover;
+        color: #ffffff;
+    }
+    .advisory_p{
+        float: left;
+    }
+    .advisory_p p:nth-child(1){
+        font-size: 12px;
+        margin: 11px 0 3px 10px;
+       
+    }
+    .advisory_p p:nth-child(2){
+        font-size: 10px;
+        margin: 8px 0 3px 10px;
+    }
+    .end{
+        width: 60px;
+        height: 30px;
+        line-height: 30px;
+        float: right;
+        font-size: 12px;
+        margin-top: 15px;
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 8px;
+    }
+    .advisory_content{
+        width: 100%;
+        height: 500px;
+    }
+    .advisory_content_left{
+        width: 70%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #dadbdb;
+        border-top: 0px;
+    }
+    .advisory_content_right{
+        width: 30%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid #dadbdb;
+        border-top: 0px;
+        border-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advisory_content_right p{
+        padding-top: 15px;
+        font-size: 10px;
+        color: #333333;
+        text-align: center;
+    }
+    .chat_wrap{
+        width: 100%;
+        height: 360px;
+        border-bottom: 1px solid #dadbdb;
+        box-sizing: border-box;
+    }
+    .remide{
+        width: 100%;
+        height: 25px;
+        background: #fff9db;
+        font-size: 12px;
+        color: #f2930b;
+        padding-top: 3px;
+    }
+    .remide img{
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    .remide span{
+        vertical-align: middle;
+    }
+    .cancel{  
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .ad_time{
+        width: 40%;
+        margin: 0 auto;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background: #abcccc;
+        color: #ffffff;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .chat_pep{
+        color:#258ffc;
+    }
+    .chat_h{
+        margin-left: 5px;
+        color: #abcccc;
+    }
+    .chat_left{
+        margin-top: 12px;
+        font-size: 10px;
+    }
+    .message{
+       display: inline-block;
+       padding: 5px;
+       font-size: 10px;
+       background: #eef0f0;
+       border-radius: 8px;
+       position: relative;
+       margin-left: 5px;
+    }
+    .message::after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 5px solid transparent;
+        border-bottom: 8px solid #eef0f0;
+        top: -12px;
+        left: 10px;
+        
+    }
+    .icon_chat{
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #dadbdb;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .icon_smlle,.icon_text,.icon_phone,.icon_move,.icon_jia{
+        margin: 0 15px;
+    }
+    .send{
+        width: 100%;
+        height: 100px;
+        position: relative;
+    }
+    .send_button{
+        width: 60px;
+        height: 25px;
+        background: #258ffc;
+        text-align: center;
+        line-height: 25px;
+        font-size: 12px;
+        color: #ffffff;
+        position: absolute;
+        right:10px;
+        bottom: 10px;
+        border-radius: 2px;
+    }
+
+    /* 服务政策 */
+    .policy{
+        width: 96%;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+    .policy .ser_li{
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dadbdb;
+    }
+    .ser_li p:first-child{
+        font-size: 14px;
+        color: #258ffc;
+    }
+    .ser_li p{
+        margin: 5px 0;
+        font-size: 11px;
+    }
+    .left_depage{
+    width: 96%;
+        height: 80px;
+        margin-left: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #999999;
+    }
+    .left_depage button{
+    margin: 0 3px;
+    background: #f2f2f2;
+    outline: none;
+    border: 0;
+    }
+    .btn_num{
+        width: 20px;
+    }
+    .last-page,.next-page{
+        width: 68px;
+    }
+    .left_depage .active{
+        border-radius: 2px;
+        box-shadow: 0px 2px 0 0 #0679eb;
+        background-color: #238ef8;
+        color:#ffffff ;
+    }
+
+    /* 常见问题 */
+    .ser_li .ser_first{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .ser_secend{
+        position: relative;
+    }
+    .question{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 8px;
+        left: -30px;
+    }
+    .answer{
+    display: inline-block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -3px;
+        left: -30px;
+    }
+
+
+}

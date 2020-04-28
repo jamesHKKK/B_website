@@ -1,0 +1,1739 @@
+@media screen and (max-width:767px) {
+
+  /* 生态圈 */
+  .ecorphere {
+    height: 220px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.1);
+  }
+  .ecorphere_title {
+    width: 100%;
+    height: 88px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #5f616d;
+  }
+  .ecorphere_content {
+    width: 100%;
+    height: 106px;
+    position: relative;
+  }
+  .ecorphere_line,
+  .ecorphere_line1 {
+    width: 100%;
+    height: 90px;
+    background: url(../image/3-5@3x.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    z-index: 111;
+  }
+  .ecorphere_line1 {
+    top: 25px;
+    height: 70px;
+    background: url(../image/3-7@3x.png) no-repeat;
+    background-size: contain;
+    z-index: 1;
+  }
+  .ecorphere_line_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecorphere_line_wrap li {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+  }
+  .ecorphere_content_bac{
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: url(../image/3-2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecorphere_content_bac1{
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: url(../image/管理.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecorphere_content_bac img{
+    width: 15px;
+  }
+  .eco_changge{
+    background: url(../image/3-3.png);
+    background-size: cover;  
+  }
+  .eco_line_p1{
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  .eco_line_p2{
+    text-align: center;
+    color: #cccccc;
+    font-size: 0px;
+  }
+  .line_a{
+    top: -22px;
+    left: 1%;
+  }
+  .line_b{
+    top: 25px;
+    left: 14%;
+  }
+  .line_c{
+    top: -22px;
+    left: 29%;
+  }
+  .line_d{
+    top: 25px;
+    left: 42%;
+  }
+  .line_e{
+    top: 4px;
+    right: 15%;
+  }
+  .line_f{
+    top: -22px;
+    right: -2%;
+  }
+  /* 智慧校园 */
+  .smart_campus {
+    width: 100%;
+    height: 344px;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .campus_title {
+    width: 100%;
+    height: 78px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #514f4e;
+  }
+  .campus_content {
+    width: 100%;
+    height: 266px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .campus_img {
+    width: 50%;
+    height: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .campus_img  img{
+    width: 78%;
+  }
+  .campus_define {
+    width: 50%;
+    float: left;
+    
+  }
+  .cap_large {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 2px;
+    letter-spacing: 1px;
+  }
+  .cap_small {
+    font-size: 10px;
+    padding-top: 4px;
+    color: #a1a1a1;
+    letter-spacing: 1px;
+  }
+  .cap_btn {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+    left: 7%;
+  }
+  .cap_btn a {
+     display: inline-block;
+     width: 30%;
+     height: 30px;
+     border: 1px solid #238ef8;
+     border-radius: 25px;
+     color: #238ef8;
+     background: #fff;
+     outline: 0;
+     line-height: 30px;
+     text-align: center;
+ }
+ .cap_btn a:nth-child(1){
+    margin-right: 16%;
+    margin-left: 3%;
+ }
+ .cap_btn a:hover {
+    background: #286CFB;
+    color: #fff;
+ }
+ .cap_btn .backg_btn {
+    background: #105CFB; 
+    color: #fff;
+ }
+  /* 学生过程性评价系统 */
+  .clond_platform {
+    width:100%;
+    height: 344px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #f4f9ff;
+  }
+  .clond_title {
+    width:100%;
+    height: 78px;
+    padding-top: 25px;
+    text-align: center;
+  }
+  .title1 {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #514f4e;
+  }
+  .title2 {
+    color: #858687;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+  }
+  .clond_content {
+    width: 100%;
+    height: 266px;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  .clond_img {
+    width: 50%;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .clond_define {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 5%;
+  
+  }
+  /* 电子班牌配套软件 */
+  .e_banner {
+    width: 100%;
+    height: 360px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #fff;
+  }
+  .e_banner_img {
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .e_banner_define {
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding-left: 10%;
+   
+  }
+  /* 学校及教师发展系统 */
+  .development_system {
+    width: 100%;
+    height: 360px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #f4f9ff;
+  }
+  /* 德育过程性评价系统 */
+  .process_system {
+    width: 100%;
+    height: 360px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #fff;
+  }
+  .process_system_img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 宿舍管理及评价系统 */
+  .dormitory {
+    width: 100%;
+    height: 378px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #f4f9ff;
+  }
+  .dormitory_content {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  .dormitory_margin {
+    margin: 4px 0;
+  }
+  .dormitory_img {
+    float: right;
+    width: 50%;
+    padding-bottom: 4%;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dormitory_img img{
+    width: 98%;
+    height: 50%;
+  }
+  .dormitory .cap_btn{
+    bottom: 20px;
+  }
+  /* b_logo */
+  .b_logo {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 210px;
+  }
+  .b_logo ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .b_logo ul li {
+    width: 17%;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .b_logo ul li:last-child {
+    margin-right: 0
+  }
+  .b_logo_padding {
+    padding: 20px;
+  }
+  .b_logosizel {
+    font-size: 13px;
+    color: #666666;
+  }
+  .b_logosizes {
+    font-size: 10px;
+    color: #9A9A9A;
+  }
+  .b_logo_padding {
+    width: 100%;
+    padding: 10px;
+  }
+  .b_logo_padding img{
+    width: 100%;
+  }
+  /* 影响力 */
+  .influence {
+    width: 100%;
+    height: 256px;
+    background: #258ffc;
+  }
+  .influence_title {
+      height: 90px;
+      padding-top: 28px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 1px;
+  }
+  .influence_content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .influence_content ul li {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .influence_content ul li:last-child {
+    padding-right: 0;
+  }
+  .influence_bot {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .influence_s {
+    font-size: 15px;
+    text-align: right;
+    font-weight: 300;
+  }
+  /* school */
+  .school {
+    width: 100%;
+    height: 188px;
+    background: #fff;
+    position: relative;
+  }
+  .school_list {
+    width: 75.5%;
+    margin: 0 auto;
+    position: absolute;
+    top: -42px;
+    left: 0;
+    right: 0;
+    height: 260px;
+    
+  }
+  .school_list_a {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    box-shadow: 0 0 20px 0 #bababa;
+    background-color: #ffffff;
+  }
+  .school_list_a li {
+    float: left;
+    width: 16.66%;
+    padding-top: 16.66%;
+    overflow: hidden;
+    position: relative;
+  }
+  .school_list_odd{
+    background: #f8f8f8;
+  }
+  .school_p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .school_p img{
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .school_p  p{
+   width: 100%;
+   height: 20%;
+    color: #b5b5b5;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+  
+  }
+  .school_list_more {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .school_list_more i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 5px;
+    color: #acacaa;
+  }
+  .school_list_more span {
+    letter-spacing: 2px;
+    color: #bcbcbc;
+  }
+  .school_p img{
+    width: 50%;
+    margin-top: 10px;
+  }
+  /*整体解决方案 */
+  .solution {
+    width: 100%;
+    height: 340px;
+    position: relative;
+    background: url(../image/401071237.png) no-repeat;
+    background-size: cover;
+  }
+  .solution_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 84.5%;
+    height: 295px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  .solution_title {
+    width: 100%;
+    height: 52px;
+    padding-top: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333333;
+  }
+  .solution_left {
+    float: left;
+    width: 50%;
+    height: 148px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .solution_right {
+    float: right;
+    width: 50%;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .solution_bottom {
+    width: 100%;
+    height: 60px;
+    float: left;
+  }
+  .solution_ul li {
+    margin: 6px 0;
+    letter-spacing: 1px;
+  }
+  .solution_l {
+    font-size: 12px;
+  }
+  .solution_s {
+    font-size: 8px;
+    color: #999999;
+  }
+  .solution_bottom_left {
+    width: 48%;
+    float: left;
+    height: 26px;
+    margin-right: 4%;
+    padding-left: 5px;
+  }
+  .solution_bottom_left  img{
+  width: 17px;
+  height: 20px;
+  }
+  .solution_bottom_left  input{
+    width: 75%;
+    height: 26px !important;
+    font-size: 10px;
+  }
+  .solution_bottom_center {
+    width: 48%;
+    float: left;
+    height: 26px;
+  }
+  .solution_bottom_center img{
+    width: 14px;
+    height: 21px;
+  }
+  .solution_bottom_center input{
+    width: 75%;
+    height: 26px !important;
+    font-size: 10px;
+  }
+  .solution_buttom_right {
+    display: block;
+    float: left;
+    width: 88px;
+    height: 28px;
+    background: #105CFB; 
+    border-radius: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin: 25px 0 0 10px;
+  }
+  .solution_buttom_right:hover{
+    background: #286CFB;
+    color: rgb(255, 255, 255);
+  }
+  .solution_bottom input {
+    margin-left: 15px;
+    margin-top: 2px;
+    border: 1px solid rgb(153, 153, 153);
+  }
+  input::-webkit-input-placeholder {
+    color: rgb(153, 153, 153);
+  }
+ 
+}
+@media screen and (min-width:767px) and (max-width:1200px){
+/* 轮播图 */
+  .container-fluid {
+    padding: 0% !important;
+  }
+
+  /* 生态圈 */
+  .ecorphere {
+    height: 450px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.1);
+  }
+  .ecorphere_title {
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #5f616d;
+  }
+  .ecorphere_content {
+    width: 100%;
+    height: 310px;
+    position: relative;
+  }
+  .ecorphere_line,
+  .ecorphere_line1 {
+    width: 100%;
+    height: 169px;
+    background: url(../image/3-5@3x.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+  }
+  .ecorphere_line1 {
+    top: 25px;
+    height: 152px;
+    background: url(../image/3-7@3x.png) no-repeat;
+    background-size: contain;
+    z-index: 1;
+  }
+  .ecorphere_line_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecorphere_line_wrap li {
+    width: 160px;
+    height: 150px;
+    position: absolute;
+  }
+  .ecorphere_content_bac{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: url(../image/3-2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ecorphere_content_bac1{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: url(../image/管理.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eco_changge{
+    background: url(../image/3-3.png);
+    background-size: cover;  
+  }
+  .eco_line_p1{
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  .eco_line_p2{
+    text-align: center;
+    color: #cccccc;
+    font-size: 10px;
+  }
+  .line_a{
+    top: -28px;
+    left: 0%;
+  }
+  .line_b{
+    top: 55px;
+    left: 16%;
+  }
+  .line_c{
+    top: -28px;
+    left: 32%;
+  }
+  .line_d{
+    top: 55px;
+    left: 47%;
+  }
+  .line_e{
+    top: 5px;
+    right: 16%;
+  }
+  .line_f{
+    top: -28px;
+    right: 0%;
+  }
+  /* 智慧校园 */
+  .smart_campus {
+    width: 100%;
+    height: 575px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .campus_title {
+    width: 100%;
+    height: 135px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 6px;
+    color: #514f4e;
+  }
+  .campus_content {
+    width: 100%;
+    height: 440px;
+    box-sizing: border-box;
+  }
+  .campus_img {
+    width: 59%;
+    height: 100%;
+    float: left;
+    padding-bottom: 6.8%;
+    box-sizing: border-box;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .campus_define {
+    width: 41%;
+    height: 100%;
+    float: right;
+    padding-bottom: 6.8%;
+    box-sizing: border-box;
+    padding-left: 25px;
+  }
+  .cap_large {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 26px;
+    letter-spacing: 1px;
+  }
+  .cap_small {
+    font-size: 13px;
+    padding-top: 4px;
+    color: #a1a1a1;
+    letter-spacing: 1px;
+  }
+  .cap_btn {
+    padding-top: 30px;
+  }
+  .cap_btn a {
+    display: inline-block;
+     width: 47%;
+     height: 42px;
+     border: 1px solid #238ef8;
+     border-radius: 25px;
+     color: #238ef8;
+     background: #fff;
+     outline: 0;
+     line-height: 42px;
+     text-align: center;
+ }
+ 
+ .cap_btn a:nth-child(1) {
+     margin-right: 4%;
+ }
+ .cap_btn a:hover {
+   background: #286CFB;
+   color: #fff;
+ }
+ .cap_btn .backg_btn {
+  background: #105CFB; 
+  color: #fff;
+ }
+  /* 学生过程性评价系统 */
+  .clond_platform {
+    width:100%;
+    height: 560px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #f4f9ff;
+  }
+  .clond_title {
+    width:100%;
+    height: 136px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .title1 {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    color: #514f4e;
+  }
+  .title2 {
+    color: #858687;
+    letter-spacing: 1.5px;
+  }
+  .clond_content {
+    width: 100%;
+    height: 424px;
+    padding-bottom: 60px;
+  }
+  .clond_img {
+    width: 50%;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .clond_define {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding-left: 4%;
+    padding-right: 5%;
+  }
+  /* 电子班牌配套软件 */
+  .e_banner {
+    width: 100%;
+    height: 560px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #fff;
+  }
+  .e_banner_img {
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .e_banner_define {
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding-left: 10%;
+  }
+  /* 学校及教师发展系统 */
+  .development_system {
+    width: 100%;
+    height: 560px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #f4f9ff;
+  }
+  /* 德育过程性评价系统 */
+  .process_system {
+    width: 100%;
+    height: 560px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #fff;
+  }
+  .process_system_img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 宿舍管理及评价系统 */
+  .dormitory {
+    width: 100%;
+    height: 520px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: #f4f9ff;
+  }
+  .dormitory_content {
+    width: 100%;
+    height: 384px;
+    padding-bottom: 60px;
+  }
+  .dormitory_margin {
+    margin: 8px 0;
+  }
+  .dormitory_img {
+    float: right;
+    width: 50%;
+    padding-bottom: 4%;
+    height: 100%;
+    padding: 0 20px;
+  }
+  /* b_logo */
+  .b_logo {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 320px;
+  }
+  .b_logo ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .b_logo ul li {
+    width: 17%;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .b_logo ul li:last-child {
+    margin-right: 0
+  }
+  .b_logo_padding {
+    padding: 20px;
+  }
+  .b_logosizel {
+    font-size: 16px;
+    color: #666666;
+  }
+  .b_logosizes {
+    font-size: 13px;
+    color: #9A9A9A;
+  }
+  /* 影响力 */
+  .influence {
+    width: 100%;
+    height: 350px;
+    background: #258ffc;
+  }
+  .influence_title {
+    height: 130px;
+    padding-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  .influence_content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .influence_content ul li {
+    padding-right: 80px;
+    font-weight: bold;
+    font-size: 38px;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .influence_content ul li:last-child {
+    padding-right: 0;
+  }
+  .influence_bot {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .influence_s {
+    font-size: 15px;
+    text-align: right;
+    font-weight: 300;
+  }
+  /* school */
+  .school {
+    width: 100%;
+    height: 350px;
+    background: #fff;
+    position: relative;
+  }
+  .school_list {
+    width: 75.5%;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    height: 522px;
+    
+  }
+  .school_list_a {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    box-shadow: 0 0 20px 0 #bababa;
+    background-color: #ffffff;
+  }
+  .school_list_a li {
+    float: left;
+    width: 16.66%;
+    padding-top: 16.66%;
+    overflow: hidden;
+    position: relative;
+  }
+  .school_list_odd{
+    background: #f8f8f8;
+  }
+  .school_p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .school_p img{
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .school_p  p{
+   width: 100%;
+   height: 20%;
+    color: #b5b5b5;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+  
+  }
+  .school_list_more {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+  }
+  .school_list_more i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 5px;
+    color: #acacaa;
+  }
+  .school_list_more span {
+    letter-spacing: 2px;
+    color: #bcbcbc;
+  }
+  .school_p img{
+    width: 50%;
+    margin-top: 10px;
+  }
+  /*整体解决方案 */
+  .solution {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: url(../image/4010712376.png);
+    background-size: cover;
+  }
+  .solution_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 84.5%;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  .solution_title {
+    width: 100%;
+    height: 130px;
+    padding-top: 48px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333333;
+  }
+  .solution_left {
+    float: left;
+    width: 50%;
+    height: 200px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .solution_right {
+    float: right;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .solution_bottom {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .solution_ul li {
+    margin: 24px 0;
+    letter-spacing: 2px;
+  }
+  .solution_l {
+    font-size: 22px;
+  }
+  .solution_s {
+    color: #999999;
+  }
+  .solution_bottom_left {
+    width: 40%;
+    float: left;
+    height: 45px;
+  }
+  .solution_bottom_center {
+    width: 40%;
+    float: left;
+    height: 45px;
+  }
+  .solution_buttom_right {
+    display: block;
+    float: left;
+    width: 15.4%;
+    height: 45px;
+    background: #105CFB; 
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-left: 4.6%;
+  }
+  .solution_buttom_right:hover{
+    background: #286CFB;
+    color: rgb(255, 255, 255);
+  }
+  .solution_bottom input {
+    margin-left: 15px;
+    margin-top: 2px;
+    border: 1px solid rgb(153, 153, 153);
+  }
+  input::-webkit-input-placeholder {
+    color: rgb(153, 153, 153);
+  }
+ 
+}
+@media screen and (min-width:1200px){ 
+/* 轮播图 */
+.container-fluid {
+    padding: 0% !important;
+}
+
+/* 生态圈 */
+.ecorphere {
+    height: 510px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.1);
+}
+.ecorphere_title {
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #5f616d;
+}
+.ecorphere_content {
+    width: 100%;
+    height: 310px;
+    position: relative;
+}
+.ecorphere_line,
+.ecorphere_line1 {
+    width: 100%;
+    height: 169px;
+    background: url(../image/3-5@3x.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+.ecorphere_line1 {
+    top: 25px;
+    height: 152px;
+    background: url(../image/3-7@3x.png) no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+.ecorphere_line_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ecorphere_line_wrap li {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+.ecorphere_content_bac {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background: url(../image/3-2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ecorphere_content_bac1 {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background: url(../image/管理.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eco_changge {
+    background: url(../image/3-3.png);
+    background-size: cover;
+}
+.eco_line_p1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.eco_line_p2 {
+    text-align: center;
+    color: #cccccc;
+    font-size: 12px;
+}
+.line_a {
+    top: -28px;
+    left: 5%;
+}
+.line_b {
+    top: 60px;
+    left: 20%;
+}
+.line_c {
+    top: -28px;
+    left: 35%;
+}
+.line_d {
+    top: 60px;
+    left: 50%;
+}
+.line_e {
+    top: 5px;
+    right: 20%;
+}
+.line_f {
+    top: -28px;
+    right: 5%;
+}
+/* 智慧校园 */
+.smart_campus {
+    width: 100%;
+    height: 670px;
+    padding-left: 19.6%;
+    padding-right: 22%;
+}
+.campus_title {
+    width: 100%;
+    height: 160px;
+    padding-top: 95px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 6px;
+    color: #514f4e;
+}
+.campus_content {
+    width: 100%;
+    height: 510px;
+    box-sizing: border-box;
+}
+.campus_img {
+    width: 59%;
+    height: 100%;
+    float: left;
+    padding-bottom: 6.8%;
+    box-sizing: border-box;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.campus_define {
+    width: 41%;
+    height: 100%;
+    float: right;
+    padding-bottom: 6.8%;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.cap_large {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 36px;
+    letter-spacing: 1px;
+}
+.cap_small {
+    font-size: 14px;
+    padding-top: 8px;
+    color: #a1a1a1;
+    letter-spacing: 1px;
+}
+.cap_btn {
+    padding-top: 30px;
+}
+.cap_btn a {
+   display: inline-block;
+    width: 47%;
+    height: 42px;
+    border: 1px solid #238ef8;
+    border-radius: 25px;
+    color: #238ef8;
+    background: #fff;
+    outline: 0;
+    line-height: 42px;
+    text-align: center;
+}
+
+.cap_btn a:nth-child(1) {
+    margin-right: 4%;
+}
+.cap_btn a:hover {
+  background: #286CFB;
+  color: #fff;
+}
+.cap_btn .backg_btn {
+ background: #105CFB; 
+ color: #fff;
+}
+/* 集成整合云平台 */
+.clond_platform {
+    width: 100%;
+    height: 700px;
+    padding-left: 19.6%;
+    padding-right: 22%;
+    background: #f4f9ff;
+}
+.clond_title {
+    width: 100%;
+    height: 196px;
+    padding-top: 90px;
+    text-align: center;
+}
+.title1 {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    color: #514f4e;
+}
+.title2 {
+    color: #858687;
+    letter-spacing: 1.5px;
+}
+.clond_content {
+    width: 100%;
+    height: 504px;
+    padding-bottom: 60px;
+}
+.clond_img {
+    width: 50%;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clond_define {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding-right: 10%;
+}
+/* 电子班牌配套软件 */
+.e_banner {
+    width: 100%;
+    height: 700px;
+    padding-left: 19.6%;
+    padding-right: 22%;
+    background: #fff;
+}
+.e_banner_img {
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e_banner_define {
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding-left: 10%;
+}
+/* 学校及教师发展系统 */
+.development_system {
+    width: 100%;
+    height: 700px;
+    padding-left: 19.6%;
+    padding-right: 22%;
+    background: #f4f9ff;
+}
+/* 德育过程性评价系统 */
+.process_system {
+    width: 100%;
+    height: 700px;
+    padding-left: 19.6%;
+    padding-right: 22%;
+    background: #fff;
+}
+.process_system_img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 宿舍管理及评价系统 */
+.dormitory {
+    width: 100%;
+    height: 694px;
+    padding-left: 19.6%;
+    padding-right: 22%;
+    background: #f4f9ff;
+}
+.dormitory_content {
+    height: 498px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.dormitory_margin {
+    margin: 8px 0;
+}
+.dormitory_img {
+    float: right;
+    width: 50%;
+    padding-bottom: 4%;
+    height: 100%;
+    padding: 0 20px;
+}
+/* b_logo */
+.b_logo {
+    width: 100%;
+    padding-left: 18.6%;
+    padding-right: 18%;
+    height: 380px;
+}
+.b_logo ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b_logo ul li {
+    width: 14%;
+    text-align: center;
+    margin-right: 50px;
+}
+.b_logo ul li:last-child {
+    margin-right: 0
+}
+.b_logo_padding {
+    padding: 20px;
+}
+.b_logosizel {
+    font-size: 16px;
+    color: #666666;
+}
+.b_logosizes {
+    font-size: 13px;
+    color: #9A9A9A;
+}
+/* 影响力 */
+.influence {
+    width: 100%;
+    height: 485px;
+    background: #258ffc;
+}
+.influence_title {
+    height: 190px;
+    padding-top: 97px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.influence_content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.influence_content ul li {
+    padding-right: 140px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.influence_content ul li:last-child {
+    padding-right: 0;
+}
+.influence_bot {
+    font-size: 20px;
+    font-weight: 300;
+}
+.influence_s {
+    font-size: 15px;
+    text-align: right;
+    font-weight: 300;
+}
+/* school */
+.school {
+    width: 100%;
+    height: 550px;
+    background: #fff;
+    position: relative;
+}
+.school_list {
+    width: 62.5%;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+
+    height: 645px;
+    margin: auto;
+
+}
+.school_list_a {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    box-shadow: 0 0 20px 0 #bababa;
+    background-color: #ffffff;
+}
+.school_list_a li {
+    float: left;
+    width: 16.66%;
+    padding-top: 16.66%;
+    overflow: hidden;
+    position: relative;
+}
+.school_list_odd {
+    background: #f8f8f8;
+}
+.school_p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.school_p img {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.school_p p {
+    width: 100%;
+    height: 20%;
+    color: #b5b5b5;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+
+}
+.school_list_more {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+}
+.school_list_more i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 5px;
+    color: #acacaa;
+}
+.school_list_more span {
+    letter-spacing: 2px;
+    color: #bcbcbc;
+}
+.school_p img {
+    width: 50%;
+    margin-top: 10px;
+}
+/*整体解决方案 */
+.solution {
+    width: 100%;
+    height: 790px;
+    position: relative;
+    background: url(../image/4010712376.png);
+    background-size: cover;
+}
+.solution_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 62.5%;
+    height: 666px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 125px;
+}
+.solution_title {
+    width: 100%;
+    height: 150px;
+    padding-top: 75px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #333333;
+}
+.solution_left {
+    float: left;
+    width: 50%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution_right {
+    float: right;
+    width: 50%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution_bottom {
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+}
+.solution_ul li {
+    margin: 50px 0;
+    letter-spacing: 2px;
+}
+.solution_l {
+    font-size: 25px;
+}
+.solution_s {
+    color: #999999;
+}
+.solution_bottom_left {
+    width: 40%;
+    float: left;
+    height: 45px;
+}
+.solution_bottom_center {
+    width: 40%;
+    float: left;
+    height: 45px;
+}
+.solution_buttom_right {
+    display: block;
+    float: left;
+    width: 15.4%;
+    height: 45px;
+    background: #105CFB; 
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-left: 4.6%;
+}
+.solution_buttom_right:hover{
+  background: #286CFB;
+  color: rgb(255, 255, 255);
+}
+.solution_bottom input {
+    margin-left: 15px;
+    margin-top: 2px;
+    border: 1px solid rgb(153, 153, 153);
+}
+input::-webkit-input-placeholder {
+    color: rgb(153, 153, 153);
+}
+
+}
